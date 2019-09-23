@@ -4,13 +4,12 @@
     android:drawable="@drawable/droid"
     tools:ignore="UnusedResources">
 
-
     <target
-        android:name="head_eyes"
-        android:animation="@animator/shrug" />
-
+        android:name="left_eye"
+        android:animation="@animator/blink_without_offset" />
     <target
-        android:name="arms"
-        android:animation="@animator/shrug" />
+        android:name="right_eye"
+        android:animation="@animator/blink_without_offset" />
+
 
 </animated-vector>
